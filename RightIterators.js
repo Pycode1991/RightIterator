@@ -1,0 +1,28 @@
+const cities = ['Orlando','Dubai','Edinburg','Chennai','Chennai','Accra','Denver','Eskisehir','Medellin','Yokohama'];
+
+
+const nums = [1, 50, 75, 200, 350, 525, 1000];
+// Choose a method that will return undefined
+
+cities.forEach(city => console.log('have you visited ' + city + '?'));
+
+// Choose a method that will return a new array 
+const longCities = cities.filter(city => city.length > 7);
+
+
+// Choose a method that will return a single value
+const word = cities.reduce((acc, currVal) => {
+    return acc + currVall[0]
+}, 'C');
+
+console.log(word)
+
+
+// Choose a method that will return a new array
+
+const smalleNums = nums.map(num => num - 5);
+
+// Choose a method that will return a boolean value 
+nums.every(num => num < 0);
+
+
